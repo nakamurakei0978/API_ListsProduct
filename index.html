@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en"> 
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vite App</title>
+    <style>
+      ::-webkit-scrollbar{
+        width: 5px;
+      }
+      ::-webkit-scrollbar-button{
+        background-color: transparent;
+      }
+      ::-webkit-scrollbar-thumb{
+        background-color: aliceblue;
+      }
+      ::-webkit-scrollbar-track{
+        background-color: transparent;
+      }
+      html{
+        scroll-behavior: smooth;
+      }
+      body{
+        user-select: none !important;
+        -moz-user-select: none !important;
+        -webkit-user-select: none !important;
+      }
+      button,a,img{
+        -webkit-user-drag: none !important;
+      }
+    </style>
+    
+  </head>
+  <body class="dark:bg-black text-white">
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
