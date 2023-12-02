@@ -44,11 +44,11 @@ const modules = [Navigation, Pagination, EffectFade, Keyboard, Autoplay]
             <div class="absolute inset-0 bg-gradient-to-r from-black via-transparent to-black "></div>
         </swiper-slide>
         <swiper-slide class="relative">
-            <img class="w-[100%]" src="../assets/ads/online.jpg" alt="">
+            <img class="w-[100%]" src="../assets/ads/EQwJcGlVUAAKb14.jfif" alt="">
             <div class="absolute inset-0 bg-gradient-to-r from-black via-transparent to-black"></div>
         </swiper-slide>
         <swiper-slide class="relative">
-            <img class="w-[100%]" src="https://news.codashop.com/bd/wp-content/uploads/sites/10/2020/10/Halloween-Image-Banner-Mobile-Legends.jpg" alt="">
+            <img class="w-[100%]" src="../assets/ads/sale.jpg" alt="">
             <div class="absolute inset-0 bg-gradient-to-r from-black via-transparent to-black"></div>
         </swiper-slide>
     </swiper>
